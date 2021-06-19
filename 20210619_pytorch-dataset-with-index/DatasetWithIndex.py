@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
     # デモンストレーション2: Subset
     print()
-    print(print("デモンストレーション2: Subsetとの組み合わせ"))
+    print("デモンストレーション2: Subsetとの組み合わせ")
     from torch.utils.data import Subset
 
     ## Subset上のインデックスを取得する
@@ -62,8 +62,10 @@ if __name__ == '__main__':
     subset1 = Subset(dataset, indices=[2, 1, 3, 5, 4])
     subset_with_index = DatasetWithIndex(subset1)
     print('index on a subset = {}'.format(subset_with_index[0][2]))
+    print('label = {}'.format(subset_with_index[0][1]))
 
     ## 元のデータセットのインデックスを取得する
     ## DatasetWithIndexをSubsetでラップする
     subset_with_raw_index = Subset(dataset_with_index, [2, 1, 3, 5, 4])
     print('index on a raw dataset = {}'.format(subset_with_raw_index[0][2]))
+    print('label = {}'.format(subset_with_raw_index[0][1]))
