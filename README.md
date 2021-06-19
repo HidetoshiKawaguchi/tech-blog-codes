@@ -1,1 +1,1 @@
-# zenn-codes
+# tech-blog-codes
