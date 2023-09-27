@@ -1,0 +1,2 @@
+numpy==1.25.2
+sqlite-vss==0.1.2
