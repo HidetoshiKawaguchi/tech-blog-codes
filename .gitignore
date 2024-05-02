@@ -1,4 +1,6 @@
 .DS_Store
+__pycache__
+.ipynb_checkpoints
 20210619_pytorch-dataset-with-index/MNIST/*
 20210717_pytorch_datasetfor_imagenet/ILSVRC2012_*
 20220731_pytorch-m1-macbook-gpu/cifar-10-*
